@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-</head>
-<body>
-      
-</body>
+      <head>
+		<!--  Meta  -->
+		<meta charset='UTF-8'>
+		<title> {{ Hassan Pudineh }} : Javascript Developer</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+            <link rel = "icon" href ="logo.png" 
+                  type = "image/x-icon">
+		<!--  Styles  -->
+		<link rel='stylesheet' href='styles/normalize.css'>
+		<link rel='stylesheet' href='styles/index.css'>
+
+		<!-- xterm.js -->
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/xterm/3.14.5/xterm.min.js'></script>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/xterm/3.14.5/xterm.min.css'>
+		<script src='https://cdn.jsdelivr.net/gh/wavesoft/local-echo@0.2.0/dist/local-echo.js'></script>
+	</head>
+      <body>
+            <div id='term'></div>
+		<a href='plain'>I don't know shell.</a>
+		<div id='x' style='display:none;'></div>
+		<script src='scripts/commands.js'></script>
+		<script src='scripts/cmd-handler.js'></script>
+		<script src='scripts/fs.js'></script>
+		<script src='scripts/fs-handler.js'></script>
+		<script src='scripts/index.js'></script>
+      </body>
 </html>
